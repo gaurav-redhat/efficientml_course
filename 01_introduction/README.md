@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## Why Efficient ML Matters
 
 Machine learning models are getting bigger every year:
@@ -21,9 +20,6 @@ Machine learning models are getting bigger every year:
 **The Problem:** Bigger models = more compute, more memory, more energy, more cost.
 
 ---
-
-![Overview](overview.png)
-
 
 ## The Efficiency Challenge
 
@@ -36,9 +32,6 @@ Machine learning models are getting bigger every year:
 | **Cost** | Training GPT-3 cost ~$4.6M |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Course Topics Overview
 
@@ -63,17 +56,11 @@ Machine learning models are getting bigger every year:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Insight
 
 > "The goal is not just to make models smaller, but to make them faster and cheaper while maintaining accuracy."
 
 ---
-
-![Overview](overview.png)
-
 
 ## Real-World Impact
 
@@ -85,9 +72,6 @@ Machine learning models are getting bigger every year:
 | Edge IoT | Microcontrollers have KB of memory |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Resources
 

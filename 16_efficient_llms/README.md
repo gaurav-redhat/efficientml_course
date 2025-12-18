@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## LLM Inference Characteristics
 
 LLM inference is **memory-bound**, not compute-bound:
@@ -24,9 +23,6 @@ Arithmetic Intensity = FLOPs / Bytes loaded < 1
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## KV Cache Deep Dive
 
@@ -58,9 +54,6 @@ For LLaMA-7B, 2K context, FP16:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Quantization for LLMs
 
 ### Weight-Only Quantization
@@ -82,9 +75,6 @@ Activations: FP16 (for accuracy)
 
 ---
 
-![Overview](overview.png)
-
-
 ## AWQ: Activation-Aware Quantization
 
 Key insight: Some weights matter more!
@@ -100,9 +90,6 @@ importance = activation_magnitude × weight_magnitude
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Speculative Decoding
 
@@ -135,9 +122,6 @@ def speculative_decode(draft_model, main_model, prompt, k=5):
 
 ---
 
-![Overview](overview.png)
-
-
 ## Multi-Query Attention (MQA)
 
 Share K, V heads to reduce KV cache:
@@ -161,9 +145,6 @@ GQA with 8 groups:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Continuous Batching
 
 Don't wait for all requests to finish:
@@ -181,9 +162,6 @@ As requests finish, add new ones to the batch
 
 ---
 
-![Overview](overview.png)
-
-
 ## PagedAttention (vLLM)
 
 Manage KV cache like virtual memory:
@@ -198,9 +176,6 @@ Solution: Allocate KV cache in pages
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Inference Optimization Stack
 
@@ -218,9 +193,6 @@ Algorithm: Speculative decoding, batching
 
 ---
 
-![Overview](overview.png)
-
-
 ## Serving Benchmarks
 
 | Method | Throughput (tok/s) | Latency (ms/tok) |
@@ -233,9 +205,6 @@ Algorithm: Speculative decoding, batching
 
 ---
 
-![Overview](overview.png)
-
-
 ## Inference Frameworks
 
 | Framework | Strengths |
@@ -247,9 +216,6 @@ Algorithm: Speculative decoding, batching
 | SGLang | Structured generation |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Cost Analysis
 
@@ -267,9 +233,6 @@ Break-even: ~2 years at high utilization
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Papers
 
 - 📄 [FlashAttention](https://arxiv.org/abs/2205.14135)
@@ -279,9 +242,6 @@ Break-even: ~2 years at high utilization
 - 📄 [Multi-Query Attention](https://arxiv.org/abs/1911.02150)
 
 ---
-
-![Overview](overview.png)
-
 
 ## Practical Tips
 

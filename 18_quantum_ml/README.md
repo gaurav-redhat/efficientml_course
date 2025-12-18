@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## What is Quantum Computing?
 
 Classical computers use **bits** (0 or 1).
@@ -26,9 +25,6 @@ n qubits: 2^n states simultaneously
 
 ---
 
-![Overview](overview.png)
-
-
 ## Why Quantum for ML?
 
 Potential advantages:
@@ -40,9 +36,6 @@ Potential advantages:
 | Optimization | Gets stuck | Quantum tunneling |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Quantum Basics for ML
 
@@ -71,9 +64,6 @@ Path 1 + Path 2 = Amplified (constructive)
 
 ---
 
-![Overview](overview.png)
-
-
 ## Quantum Gates
 
 Like classical logic gates, but reversible:
@@ -86,9 +76,6 @@ Like classical logic gates, but reversible:
 | RY(θ) | Rotation |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Variational Quantum Circuits
 
@@ -105,9 +92,6 @@ Quantum "NN" (Variational Circuit):
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Quantum Neural Network
 
@@ -135,9 +119,6 @@ def quantum_neural_net(inputs, weights):
 
 ---
 
-![Overview](overview.png)
-
-
 ## Quantum Kernels
 
 Use quantum computer to compute kernel:
@@ -151,9 +132,6 @@ where φ(x) is quantum feature map
 Potentially exponentially hard to compute classically!
 
 ---
-
-![Overview](overview.png)
-
 
 ## Quantum Advantage Claims
 
@@ -170,9 +148,6 @@ Potentially exponentially hard to compute classically!
 
 ---
 
-![Overview](overview.png)
-
-
 ## Hybrid Classical-Quantum
 
 Most practical approach today:
@@ -186,9 +161,6 @@ Classical preprocessing → Quantum circuit → Classical postprocessing
 Example: Quantum feature extraction + Classical SVM
 
 ---
-
-![Overview](overview.png)
-
 
 ## Quantum for Optimization
 
@@ -205,9 +177,6 @@ Still researching whether better than classical...
 
 ---
 
-![Overview](overview.png)
-
-
 ## Current Quantum Hardware
 
 | Provider | Qubits | Technology |
@@ -218,9 +187,6 @@ Still researching whether better than classical...
 | D-Wave | 5000+ | Annealing (special purpose) |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Limitations
 
@@ -250,9 +216,6 @@ Often O(N) just to load data!
 
 ---
 
-![Overview](overview.png)
-
-
 ## Quantum ML Frameworks
 
 | Framework | Provider |
@@ -263,9 +226,6 @@ Often O(N) just to load data!
 | Amazon Braket | AWS |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Realistic Assessment
 
@@ -284,9 +244,6 @@ Often O(N) just to load data!
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Papers
 
 - 📄 [Quantum Machine Learning](https://arxiv.org/abs/1611.09347) - Survey
@@ -295,9 +252,6 @@ Often O(N) just to load data!
 - 📄 [Quantum Supremacy](https://www.nature.com/articles/s41586-019-1666-5)
 
 ---
-
-![Overview](overview.png)
-
 
 ## Summary
 
@@ -311,9 +265,6 @@ Often O(N) just to load data!
 > "Quantum computing is like fusion power — always 20 years away. But we're getting closer."
 
 ---
-
-![Overview](overview.png)
-
 
 ## Resources
 

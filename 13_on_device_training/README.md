@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## Why On-Device Training?
 
 Training directly on edge devices enables:
@@ -23,9 +22,6 @@ Training directly on edge devices enables:
 | **Offline** | No cloud connection needed |
 
 ---
-
-![Overview](overview.png)
-
 
 ## The Challenge
 
@@ -42,9 +38,6 @@ Training needs MORE memory than inference:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Memory Breakdown for Training
 
 ```
@@ -60,9 +53,6 @@ Training:  4MB weights
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Reducing Activation Memory
 
@@ -97,9 +87,6 @@ for param in model.head.parameters():
 
 ---
 
-![Overview](overview.png)
-
-
 ## TinyTL: Tiny Transfer Learning
 
 Key insight: **Bias gradients are cheap!**
@@ -116,9 +103,6 @@ Memory: Reduce activation storage by ~10x
 
 ---
 
-![Overview](overview.png)
-
-
 ## Activation-Efficient Training
 
 ### Forward: Memory-light operations
@@ -134,9 +118,6 @@ Memory: Reduce activation storage by ~10x
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Quantized Training
 
@@ -155,9 +136,6 @@ weight_fp32 += lr * grad
 
 ---
 
-![Overview](overview.png)
-
-
 ## Results: Training on Mobile
 
 | Method | Memory | Accuracy Drop |
@@ -168,9 +146,6 @@ weight_fp32 += lr * grad
 | + Quantization | 8% | -0.3% |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Federated Learning
 
@@ -206,9 +181,6 @@ for round in range(num_rounds):
 
 ---
 
-![Overview](overview.png)
-
-
 ## On-Device Training Frameworks
 
 | Framework | Platform | Features |
@@ -219,9 +191,6 @@ for round in range(num_rounds):
 | TinyEngine | MCU | Memory-optimized |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Practical Considerations
 
@@ -239,9 +208,6 @@ for round in range(num_rounds):
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Papers
 
 - 📄 [TinyTL](https://arxiv.org/abs/2007.11622)
@@ -249,9 +215,6 @@ for round in range(num_rounds):
 - 📄 [Federated Learning](https://arxiv.org/abs/1602.05629)
 
 ---
-
-![Overview](overview.png)
-
 
 ## Summary
 

@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## Diffusion Model Basics
 
 Diffusion models generate images by **denoising**:
@@ -24,9 +23,6 @@ Inference: Pure noise → Remove noise step by step → Image
 
 ---
 
-![Overview](overview.png)
-
-
 ## Why Are Diffusion Models Slow?
 
 | Model | Steps | Time (A100) | Quality |
@@ -39,9 +35,6 @@ Inference: Pure noise → Remove noise step by step → Image
 Each step = one full neural network pass!
 
 ---
-
-![Overview](overview.png)
-
 
 ## Faster Samplers
 
@@ -63,9 +56,6 @@ DPM-Solver: 2nd-3rd order, needs 20 steps
 
 ---
 
-![Overview](overview.png)
-
-
 ## Latent Diffusion (Stable Diffusion)
 
 Work in compressed latent space:
@@ -78,9 +68,6 @@ Image 512×512 → Encoder → Latent 64×64 → Diffusion → Decoder → Image
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Distillation for Diffusion
 
@@ -106,9 +93,6 @@ Result: 1-2 step generation!
 
 ---
 
-![Overview](overview.png)
-
-
 ## SDXL Turbo / LCM
 
 **Latent Consistency Models (LCM):**
@@ -126,9 +110,6 @@ for t in [999, 749, 499, 249]:
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Architecture Efficiency
 
@@ -148,9 +129,6 @@ Replace U-Net with Transformer:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Quantization for Diffusion
 
 Diffusion models are sensitive to quantization:
@@ -165,9 +143,6 @@ Diffusion models are sensitive to quantization:
 **Best practice:** INT8 weights + FP16 activations
 
 ---
-
-![Overview](overview.png)
-
 
 ## Caching Techniques
 
@@ -188,9 +163,6 @@ for step in steps:
 
 ---
 
-![Overview](overview.png)
-
-
 ## On-Device Diffusion
 
 Running SD on mobile:
@@ -209,9 +181,6 @@ Running SD on mobile:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Text-to-Video Efficiency
 
 Video is even more expensive:
@@ -228,9 +197,6 @@ Video: 512×512×30 frames = 7.8M pixels (30x more!)
 
 ---
 
-![Overview](overview.png)
-
-
 ## Benchmark: Image Generation
 
 | Model | Steps | Time (A100) | FID |
@@ -243,9 +209,6 @@ Video: 512×512×30 frames = 7.8M pixels (30x more!)
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Papers
 
 - 📄 [DDIM](https://arxiv.org/abs/2010.02502) - Fast deterministic sampling
@@ -255,9 +218,6 @@ Video: 512×512×30 frames = 7.8M pixels (30x more!)
 - 📄 [LCM](https://arxiv.org/abs/2310.04378)
 
 ---
-
-![Overview](overview.png)
-
 
 ## Practical Recommendations
 

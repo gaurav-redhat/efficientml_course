@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## The Lottery Ticket Hypothesis
 
 > "Dense neural networks contain sparse subnetworks (winning tickets) that can train in isolation to match the full network's accuracy."
@@ -31,9 +30,6 @@ Finding Winning Tickets:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Structured vs Unstructured
 
 | Aspect | Unstructured | Structured |
@@ -44,9 +40,6 @@ Finding Winning Tickets:
 | Real speedup | Often none on GPU | Actual speedup |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Sparse Formats
 
@@ -67,9 +60,6 @@ More efficient for row-wise operations:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Hardware Support for Sparsity
 
 | Hardware | Sparse Support |
@@ -89,9 +79,6 @@ Every 4 consecutive elements, exactly 2 must be zero:
 **Result:** 2x speedup with 50% sparsity!
 
 ---
-
-![Overview](overview.png)
-
 
 ## Dynamic Sparsity
 
@@ -114,9 +101,6 @@ for epoch in training:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Pruning LLMs
 
 Pruning large language models is different:
@@ -134,9 +118,6 @@ Pruning large language models is different:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Papers
 
 - 📄 [Lottery Ticket Hypothesis](https://arxiv.org/abs/1803.03635)
@@ -144,9 +125,6 @@ Pruning large language models is different:
 - 📄 [SparseGPT](https://arxiv.org/abs/2301.00774)
 
 ---
-
-![Overview](overview.png)
-
 
 ## Practical Tips
 

@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## Training Memory Breakdown
 
 Where does memory go during training?
@@ -25,9 +24,6 @@ Where does memory go during training?
 **Total for Adam: ~12-16x model size!**
 
 ---
-
-![Overview](overview.png)
-
 
 ## Mixed Precision Training
 
@@ -56,9 +52,6 @@ for batch in dataloader:
 
 ---
 
-![Overview](overview.png)
-
-
 ## BF16 vs FP16
 
 | Format | Exponent | Mantissa | Range | Precision |
@@ -70,9 +63,6 @@ for batch in dataloader:
 **BF16 is better for training** — same range as FP32, no overflow issues.
 
 ---
-
-![Overview](overview.png)
-
 
 ## Gradient Checkpointing
 
@@ -97,9 +87,6 @@ loss.backward()       # Recompute act1, act2 as needed
 
 ---
 
-![Overview](overview.png)
-
-
 ## Gradient Accumulation
 
 Simulate large batch with small GPU:
@@ -120,9 +107,6 @@ for i, batch in enumerate(dataloader):
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Memory-Efficient Optimizers
 
@@ -149,9 +133,6 @@ Memory: O(n + m) instead of O(n × m) for weight matrix
 
 ---
 
-![Overview](overview.png)
-
-
 ## LoRA for Training
 
 Only train low-rank adapters:
@@ -168,9 +149,6 @@ Training parameters: 0.1-1% of original
 
 ---
 
-![Overview](overview.png)
-
-
 ## Training Speed Optimizations
 
 | Technique | Speedup | Notes |
@@ -181,9 +159,6 @@ Training parameters: 0.1-1% of original
 | Fused optimizers | 1.2x | Fewer kernel launches |
 
 ---
-
-![Overview](overview.png)
-
 
 ## torch.compile()
 
@@ -204,9 +179,6 @@ What it does:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Progressive Training
 
 Start small, scale up:
@@ -224,9 +196,6 @@ Benefits:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Learning Rate Schedule
 
 ### Warmup + Cosine Decay
@@ -241,9 +210,6 @@ def lr_schedule(step, warmup_steps, total_steps, max_lr):
 
 ---
 
-![Overview](overview.png)
-
-
 ## Memory Summary
 
 | Technique | Memory Saved | Trade-off |
@@ -254,9 +220,6 @@ def lr_schedule(step, warmup_steps, total_steps, max_lr):
 | LoRA | 10-100x | Only train adapter |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Key Papers
 

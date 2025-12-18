@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## Evolution of Efficient CNNs
 
 ```
@@ -20,9 +19,6 @@ MobileNet (2017) → EfficientNet (2019) → ConvNeXt (2022)
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Depthwise Separable Convolution
 
@@ -45,9 +41,6 @@ FLOPs: C_in × (K² + C_out) × H × W
 **Speedup: ~K² / 2 = 4-9x fewer FLOPs!**
 
 ---
-
-![Overview](overview.png)
-
 
 ## MobileNet Family
 
@@ -72,9 +65,6 @@ Input → Expand (1×1) → Depthwise (3×3) → Project (1×1) → Output
 
 ---
 
-![Overview](overview.png)
-
-
 ## ShuffleNet
 
 Reduce pointwise conv cost with channel shuffle:
@@ -86,9 +76,6 @@ Result: Group conv + shuffle ≈ full conv quality
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## EfficientNet
 
@@ -110,9 +97,6 @@ r = γ^φ  (resolution)
 
 ---
 
-![Overview](overview.png)
-
-
 ## Vision Transformers (ViT)
 
 Apply transformer to images:
@@ -128,9 +112,6 @@ Image 224×224 → Split into 16×16 patches → 196 tokens
 - Need lots of data
 
 ---
-
-![Overview](overview.png)
-
 
 ## Efficient ViT Techniques
 
@@ -157,9 +138,6 @@ Conv → Transformer → Conv
 
 ---
 
-![Overview](overview.png)
-
-
 ## ConvNeXt: Modernized CNN
 
 CNNs can match ViT with modern training:
@@ -175,9 +153,6 @@ CNNs can match ViT with modern training:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Efficiency Comparison
 
 | Model | Params | FLOPs | ImageNet Top-1 |
@@ -189,9 +164,6 @@ CNNs can match ViT with modern training:
 | ConvNeXt-T | 28M | 4.5G | 82.1% |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Efficient Detection
 
@@ -208,9 +180,6 @@ YOLOv1 (2016) → YOLOv5 (2020) → YOLOv8 (2023)
 
 ---
 
-![Overview](overview.png)
-
-
 ## Mobile Deployment Tips
 
 | Technique | Benefit |
@@ -221,9 +190,6 @@ YOLOv1 (2016) → YOLOv5 (2020) → YOLOv8 (2023)
 | Input resolution | Biggest impact on speed |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Neural Architecture Search for Vision
 
@@ -236,9 +202,6 @@ YOLOv1 (2016) → YOLOv5 (2020) → YOLOv8 (2023)
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Papers
 
 - 📄 [MobileNetV1](https://arxiv.org/abs/1704.04861)
@@ -248,9 +211,6 @@ YOLOv1 (2016) → YOLOv5 (2020) → YOLOv8 (2023)
 - 📄 [ConvNeXt](https://arxiv.org/abs/2201.03545)
 
 ---
-
-![Overview](overview.png)
-
 
 ## Practical Recommendations
 

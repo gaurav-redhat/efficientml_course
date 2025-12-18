@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## Why Distributed Training?
 
 Large models don't fit on one GPU:
@@ -22,9 +21,6 @@ Large models don't fit on one GPU:
 | PaLM | 540B | 1TB | 135+ |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Parallelism Strategies
 
@@ -59,9 +55,6 @@ GPU 2: Layer 21-30          [B1][B2]...
 
 ---
 
-![Overview](overview.png)
-
-
 ## Data Parallel (DDP)
 
 ```python
@@ -85,9 +78,6 @@ for batch in dataloader:
 
 ---
 
-![Overview](overview.png)
-
-
 ## ZeRO (Zero Redundancy Optimizer)
 
 Standard DDP: Every GPU has full model + optimizer + gradients
@@ -101,9 +91,6 @@ Standard DDP: Every GPU has full model + optimizer + gradients
 | ZeRO-3 | + Parameters | Linear scaling |
 
 ---
-
-![Overview](overview.png)
-
 
 ## DeepSpeed
 
@@ -131,9 +118,6 @@ for batch in dataloader:
 
 ---
 
-![Overview](overview.png)
-
-
 ## FSDP (Fully Sharded Data Parallel)
 
 PyTorch native ZeRO-3:
@@ -152,9 +136,6 @@ model = FSDP(
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Tensor Parallelism
 
@@ -180,9 +161,6 @@ Combine for MLP: Column → Row (no sync between)
 
 ---
 
-![Overview](overview.png)
-
-
 ## Pipeline Parallelism
 
 Split layers across GPUs, overlap compute:
@@ -203,9 +181,6 @@ Micro-batching reduces bubble time.
 
 ---
 
-![Overview](overview.png)
-
-
 ## 3D Parallelism
 
 Combine all three for maximum scale:
@@ -223,9 +198,6 @@ Example: Training GPT-3
 
 ---
 
-![Overview](overview.png)
-
-
 ## Communication Primitives
 
 | Operation | Description | Use Case |
@@ -236,9 +208,6 @@ Example: Training GPT-3
 | Broadcast | Send to all GPUs | Initialize |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Communication Optimization
 
@@ -257,9 +226,6 @@ Send fewer bits:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Scaling Laws
 
 How do we scale efficiently?
@@ -273,9 +239,6 @@ How do we scale efficiently?
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Libraries
 
 | Library | Strengths |
@@ -288,9 +251,6 @@ How do we scale efficiently?
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Papers
 
 - 📄 [ZeRO](https://arxiv.org/abs/1910.02054)
@@ -299,9 +259,6 @@ How do we scale efficiently?
 - 📄 [Chinchilla](https://arxiv.org/abs/2203.15556)
 
 ---
-
-![Overview](overview.png)
-
 
 ## Practical Tips
 

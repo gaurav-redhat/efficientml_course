@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## What is Knowledge Distillation?
 
 Transfer knowledge from a large "teacher" model to a small "student" model.
@@ -22,9 +21,6 @@ Student (Small): MobileNet, 3M params, 76% acc (was 72% without distillation!)
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Why Does Distillation Work?
 
@@ -40,9 +36,6 @@ Student (Small): MobileNet, 3M params, 76% acc (was 72% without distillation!)
 The soft label says: "This is probably a cat, but it looks a bit like a dog."
 
 ---
-
-![Overview](overview.png)
-
 
 ## Distillation Loss
 
@@ -68,9 +61,6 @@ def distillation_loss(student_logits, teacher_logits, labels, T=4, α=0.5):
 
 ---
 
-![Overview](overview.png)
-
-
 ## Temperature Scaling
 
 Higher temperature → softer probability distribution:
@@ -82,9 +72,6 @@ T=20: [0.4, 0.3, 0.3]    # Very soft
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Types of Distillation
 
@@ -107,9 +94,6 @@ loss = MSE(student_gram_matrix, teacher_gram_matrix)
 
 ---
 
-![Overview](overview.png)
-
-
 ## Feature Distillation
 
 When student and teacher have different architectures:
@@ -127,9 +111,6 @@ class FeatureDistillation(nn.Module):
 
 ---
 
-![Overview](overview.png)
-
-
 ## Self-Distillation
 
 Use the model as its own teacher!
@@ -141,9 +122,6 @@ Train model → Use as teacher → Train same architecture from scratch
 Surprisingly, this improves accuracy by 1-2%!
 
 ---
-
-![Overview](overview.png)
-
 
 ## DistilBERT
 
@@ -164,9 +142,6 @@ Distill BERT into a smaller model:
 
 ---
 
-![Overview](overview.png)
-
-
 ## LLM Distillation Challenges
 
 | Challenge | Solution |
@@ -184,9 +159,6 @@ Distill BERT into a smaller model:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Results Summary
 
 | Task | Teacher | Student | Without KD | With KD |
@@ -197,9 +169,6 @@ Distill BERT into a smaller model:
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Papers
 
 - 📄 [Distilling Knowledge in Neural Networks](https://arxiv.org/abs/1503.02531) (Hinton)
@@ -207,9 +176,6 @@ Distill BERT into a smaller model:
 - 📄 [DistilBERT](https://arxiv.org/abs/1910.01108)
 
 ---
-
-![Overview](overview.png)
-
 
 ## Practical Tips
 

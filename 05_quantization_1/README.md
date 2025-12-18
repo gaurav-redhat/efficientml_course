@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## What is Quantization?
 
 **Quantization** reduces the precision of weights and activations from FP32 to INT8/INT4.
@@ -21,9 +20,6 @@ FP32 (32 bits) → INT4 (4 bits) = 8x memory reduction
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Data Types
 
@@ -36,9 +32,6 @@ FP32 (32 bits) → INT4 (4 bits) = 8x memory reduction
 | INT4 | 4 | -8 to 7 | LLM inference |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Quantization Formula
 
@@ -59,9 +52,6 @@ x_approx = (q - zero_point) * scale
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Symmetric vs Asymmetric
 
@@ -85,9 +75,6 @@ q = round(x / scale) + zero_point
 
 ---
 
-![Overview](overview.png)
-
-
 ## Quantization Granularity
 
 | Level | Description | Accuracy | Speed |
@@ -97,9 +84,6 @@ q = round(x / scale) + zero_point
 | Per-group | One scale per N weights | Highest | Slower |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Post-Training Quantization (PTQ)
 
@@ -130,9 +114,6 @@ quantized_weights = round(weights / scale) + zero_point
 
 ---
 
-![Overview](overview.png)
-
-
 ## Calibration Methods
 
 How to find the quantization range?
@@ -146,9 +127,6 @@ How to find the quantization range?
 
 ---
 
-![Overview](overview.png)
-
-
 ## Results on ImageNet
 
 | Model | FP32 Acc | INT8 Acc | Drop |
@@ -161,9 +139,6 @@ How to find the quantization range?
 
 ---
 
-![Overview](overview.png)
-
-
 ## Hardware Support
 
 | Hardware | INT8 Support | Speedup |
@@ -175,17 +150,11 @@ How to find the quantization range?
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Paper
 
 📄 **[Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877)** (Jacob et al., Google)
 
 ---
-
-![Overview](overview.png)
-
 
 ## Code Example
 
@@ -210,9 +179,6 @@ print(f"Compression: {original_size/quantized_size:.1f}x")
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Next Lecture
 

@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## What is NAS?
 
 **Neural Architecture Search** automates the design of neural networks.
@@ -18,9 +17,6 @@
 > Instead of humans designing architectures, let algorithms find them!
 
 ---
-
-![Overview](overview.png)
-
 
 ## The NAS Problem
 
@@ -31,9 +27,6 @@ Find: Architecture that maximizes accuracy
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Components of NAS
 
@@ -65,9 +58,6 @@ How do we evaluate architectures?
 
 ---
 
-![Overview](overview.png)
-
-
 ## Early NAS: RL-based
 
 NASNet (Google, 2017):
@@ -78,9 +68,6 @@ Controller (RNN) → Sample architecture → Train → Get accuracy → Update c
 **Cost:** 500 GPUs × 4 days = 2000 GPU-days 😱
 
 ---
-
-![Overview](overview.png)
-
 
 ## Search Space Design
 
@@ -99,9 +86,6 @@ Only search for Cell design!
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Operations
 
 | Operation | FLOPs | Params |
@@ -114,9 +98,6 @@ Only search for Cell design!
 | Skip | Zero | Zero |
 
 ---
-
-![Overview](overview.png)
-
 
 ## MobileNet Search Space
 
@@ -132,9 +113,6 @@ Search over:
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## DARTS: Differentiable NAS
 
@@ -154,9 +132,6 @@ output = α_1 * op_1(x) + α_2 * op_2(x) + α_3 * op_3(x)
 
 ---
 
-![Overview](overview.png)
-
-
 ## DARTS Algorithm
 
 ```
@@ -170,9 +145,6 @@ output = α_1 * op_1(x) + α_2 * op_2(x) + α_3 * op_3(x)
 
 ---
 
-![Overview](overview.png)
-
-
 ## Results
 
 | Method | GPU-days | CIFAR-10 Acc |
@@ -184,9 +156,6 @@ output = α_1 * op_1(x) + α_2 * op_2(x) + α_3 * op_3(x)
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Papers
 
 - 📄 [NASNet](https://arxiv.org/abs/1707.07012) - Original RL-based NAS
@@ -194,9 +163,6 @@ output = α_1 * op_1(x) + α_2 * op_2(x) + α_3 * op_3(x)
 - 📄 [EfficientNet](https://arxiv.org/abs/1905.11946) - Compound scaling
 
 ---
-
-![Overview](overview.png)
-
 
 ## Next Lecture
 

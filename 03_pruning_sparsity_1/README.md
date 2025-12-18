@@ -10,7 +10,6 @@
 
 ![Overview](overview.png)
 
-
 ## What is Pruning?
 
 **Pruning** removes unnecessary weights from a neural network to make it smaller and faster.
@@ -18,9 +17,6 @@
 > "Not all weights are created equal — many can be removed with minimal impact on accuracy."
 
 ---
-
-![Overview](overview.png)
-
 
 ## The Pruning Pipeline
 
@@ -30,9 +26,6 @@ Train Full Model → Prune Weights → Fine-tune → Deploy
 ```
 
 ---
-
-![Overview](overview.png)
-
 
 ## Types of Pruning
 
@@ -67,9 +60,6 @@ Remove entire channels, filters, or attention heads.
 
 ---
 
-![Overview](overview.png)
-
-
 ## Pruning Criteria
 
 How do we decide which weights to remove?
@@ -81,9 +71,6 @@ How do we decide which weights to remove?
 | **Taylor** | \|w × ∂L/∂w\| | Combines both |
 
 ---
-
-![Overview](overview.png)
-
 
 ## Magnitude Pruning
 
@@ -99,9 +86,6 @@ def magnitude_prune(weights, sparsity=0.9):
 
 ---
 
-![Overview](overview.png)
-
-
 ## Iterative Pruning
 
 Better results come from pruning gradually:
@@ -116,9 +100,6 @@ This works better than pruning 90% all at once!
 
 ---
 
-![Overview](overview.png)
-
-
 ## Results on ImageNet
 
 | Model | Pruning Ratio | Top-1 Accuracy |
@@ -132,9 +113,6 @@ This works better than pruning 90% all at once!
 
 ---
 
-![Overview](overview.png)
-
-
 ## Key Paper
 
 📄 **[Learning both Weights and Connections for Efficient Neural Networks](https://arxiv.org/abs/1506.02626)** (Han et al., 2015)
@@ -142,9 +120,6 @@ This works better than pruning 90% all at once!
 This paper introduced the standard pruning pipeline used today.
 
 ---
-
-![Overview](overview.png)
-
 
 ## Resources
 
