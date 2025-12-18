@@ -1,11 +1,6 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/MIT-6.5940-red?style=for-the-badge" alt="MIT 6.5940"/>
-  <img src="https://img.shields.io/badge/Fall-2023-blue?style=for-the-badge" alt="Fall 2023"/>
-  <img src="https://img.shields.io/badge/Lectures-18-green?style=for-the-badge" alt="18 Lectures"/>
+  <img src="banner.png" alt="EfficientML.ai Course Banner" width="100%"/>
 </p>
-
-<h1 align="center">🚀 EfficientML.ai</h1>
-<h3 align="center">Making Machine Learning Fast, Small, and Affordable</h3>
 
 <p align="center">
   <a href="https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB">
