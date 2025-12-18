@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [Next: Basics →](../02_basics/README.md)
 
-📺 [Watch Lecture 1 on YouTube](https://www.youtube.com/watch?v=RgUl6BlyaF4&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=1)
+📺 [Watch Lecture 1 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=1)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/01_introduction/demo.ipynb) ← **Try the code!**
 

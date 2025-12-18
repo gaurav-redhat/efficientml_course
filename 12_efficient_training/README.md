@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [← Previous](../11_efficient_transformers/README.md) | [Next: On-Device Training →](../13_on_device_training/README.md)
 
-📺 [Watch Lecture 12 on YouTube](https://www.youtube.com/watch?v=fBj1aRw5DNc&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=12)
+📺 [Watch Lecture 12 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=12)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/12_efficient_training/demo.ipynb) ← **Try the code!**
 

@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [← Previous](../13_on_device_training/README.md) | [Next: Efficient Vision →](../15_efficient_vision_models/README.md)
 
-📺 [Watch Lecture 14 on YouTube](https://www.youtube.com/watch?v=MrWe8wlfr4g&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=14)
+📺 [Watch Lecture 14 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=14)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/14_distributed_training/demo.ipynb) ← **Try the code!**
 

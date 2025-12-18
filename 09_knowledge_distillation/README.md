@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [← Previous](../08_neural_architecture_search_2/README.md) | [Next: MCUNet →](../10_mcunet_tinyml/README.md)
 
-📺 [Watch Lecture 9 on YouTube](https://www.youtube.com/watch?v=lxMb_YZlsR4&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=9)
+📺 [Watch Lecture 9 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=9)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/09_knowledge_distillation/demo.ipynb) ← **Try the code!**
 

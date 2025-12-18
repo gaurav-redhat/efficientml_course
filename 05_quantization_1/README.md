@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [← Previous](../04_pruning_sparsity_2/README.md) | [Next: Quantization II →](../06_quantization_2/README.md)
 
-📺 [Watch Lecture 5 on YouTube](https://www.youtube.com/watch?v=WFLBMoD5nBE&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=5)
+📺 [Watch Lecture 5 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=5)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/05_quantization_1/demo.ipynb) ← **Try the code!**
 

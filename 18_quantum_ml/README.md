@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [← Previous](../17_efficient_diffusion_models/README.md)
 
-📺 [Watch Lecture 18 on YouTube](https://www.youtube.com/watch?v=x6jf57bV3Ic&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=18)
+📺 [Watch Lecture 18 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=18)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/18_quantum_ml/demo.ipynb) ← **Try the code!**
 

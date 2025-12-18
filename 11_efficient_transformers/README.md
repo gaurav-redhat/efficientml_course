@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [← Previous](../10_mcunet_tinyml/README.md) | [Next: Efficient Training →](../12_efficient_training/README.md)
 
-📺 [Watch Lecture 11 on YouTube](https://www.youtube.com/watch?v=d82PjhwI6dY&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=11)
+📺 [Watch Lecture 11 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=11)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/11_efficient_transformers/demo.ipynb) ← **Try the code!**
 

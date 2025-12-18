@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [← Previous](../06_quantization_2/README.md) | [Next: NAS II →](../08_neural_architecture_search_2/README.md)
 
-📺 [Watch Lecture 7 on YouTube](https://www.youtube.com/watch?v=NqZHfLl4qHw&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=7)
+📺 [Watch Lecture 7 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=7)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/07_neural_architecture_search_1/demo.ipynb) ← **Try the code!**
 

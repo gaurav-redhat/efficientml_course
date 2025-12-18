@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [← Previous](../09_knowledge_distillation/README.md) | [Next: Efficient Transformers →](../11_efficient_transformers/README.md)
 
-📺 [Watch Lecture 10 on YouTube](https://www.youtube.com/watch?v=FVhz7kQ0xWU&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=10)
+📺 [Watch Lecture 10 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=10)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/10_mcunet_tinyml/demo.ipynb) ← **Try the code!**
 

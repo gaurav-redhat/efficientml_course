@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [← Previous](../15_efficient_vision_models/README.md) | [Next: Efficient Diffusion →](../17_efficient_diffusion_models/README.md)
 
-📺 [Watch Lecture 16 on YouTube](https://www.youtube.com/watch?v=3b2k5d1V3ds&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=16)
+📺 [Watch Lecture 16 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=16)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/16_efficient_llms/demo.ipynb) ← **Try the code!**
 

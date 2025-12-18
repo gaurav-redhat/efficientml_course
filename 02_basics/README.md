@@ -2,7 +2,7 @@
 
 [← Back to Course](../README.md) | [← Previous](../01_introduction/README.md) | [Next: Pruning I →](../03_pruning_sparsity_1/README.md)
 
-📺 [Watch Lecture 2 on YouTube](https://www.youtube.com/watch?v=rCFvPEQTxKI&list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=2)
+📺 [Watch Lecture 2 on YouTube](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&index=2)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/efficientml_course/blob/main/02_basics/demo.ipynb) ← **Try the code!**
 
