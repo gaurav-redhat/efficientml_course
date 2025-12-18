@@ -8,6 +8,9 @@
 
 ---
 
+![Overview](overview.png)
+
+
 ## Compute Primitives
 
 ### FLOPS vs Memory
@@ -21,6 +24,9 @@ Understanding efficiency requires knowing what's expensive:
 | Element-wise | Low | High (bandwidth limited) |
 
 ---
+
+![Overview](overview.png)
+
 
 ## Roofline Model
 
@@ -39,6 +45,9 @@ Arithmetic Intensity (FLOPS/Byte)
 ```
 
 ---
+
+![Overview](overview.png)
+
 
 ## Key Neural Network Layers
 
@@ -62,6 +71,9 @@ Arithmetic Intensity (FLOPS/Byte)
 
 ---
 
+![Overview](overview.png)
+
+
 ## Hardware Considerations
 
 | Hardware | Good At | Limited By |
@@ -73,6 +85,9 @@ Arithmetic Intensity (FLOPS/Byte)
 
 ---
 
+![Overview](overview.png)
+
+
 ## Efficiency Metrics
 
 1. **Latency** - Time for single inference
@@ -82,6 +97,9 @@ Arithmetic Intensity (FLOPS/Byte)
 5. **Peak memory** - Max RAM during inference
 
 ---
+
+![Overview](overview.png)
+
 
 ## Important Equations
 
@@ -97,6 +115,9 @@ Time = Data Size / Bandwidth
 ```
 
 ---
+
+![Overview](overview.png)
+
 
 ## Resources
 

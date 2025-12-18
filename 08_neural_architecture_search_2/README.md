@@ -8,6 +8,9 @@
 
 ---
 
+![Overview](overview.png)
+
+
 ## Hardware-Aware NAS
 
 Standard NAS optimizes accuracy. **Hardware-aware NAS** optimizes for real hardware:
@@ -19,6 +22,9 @@ Subject to: Latency ≤ 20ms on iPhone
 ```
 
 ---
+
+![Overview](overview.png)
+
 
 ## ProxylessNAS
 
@@ -34,6 +40,9 @@ latency = Σ (α_i * latency_i)  # Weighted sum of op latencies
 
 ---
 
+![Overview](overview.png)
+
+
 ## Latency Lookup Tables
 
 Pre-measure latency of each operation on target hardware:
@@ -47,6 +56,9 @@ Pre-measure latency of each operation on target hardware:
 **Total latency = sum of per-layer latencies**
 
 ---
+
+![Overview](overview.png)
+
 
 ## Once-for-All (OFA)
 
@@ -62,6 +74,9 @@ Sub-networks:
 ```
 
 ---
+
+![Overview](overview.png)
+
 
 ## OFA Training
 
@@ -82,6 +97,9 @@ loss = CE_loss + KD_loss(small_net, large_net)
 
 ---
 
+![Overview](overview.png)
+
+
 ## OFA Deployment
 
 ```
@@ -96,6 +114,9 @@ Training time: 0 (reuse OFA weights)
 
 ---
 
+![Overview](overview.png)
+
+
 ## Results: OFA vs Individual Training
 
 | Target | Individual Train | OFA |
@@ -107,6 +128,9 @@ Training time: 0 (reuse OFA weights)
 **Same accuracy, half the training cost!**
 
 ---
+
+![Overview](overview.png)
+
 
 ## MnasNet: Mobile NAS
 
@@ -122,6 +146,9 @@ w = -0.07 if Latency ≤ Target
 This penalizes missing the latency target.
 
 ---
+
+![Overview](overview.png)
+
 
 ## EfficientNet: Compound Scaling
 
@@ -143,6 +170,9 @@ resolution = γ^φ
 
 ---
 
+![Overview](overview.png)
+
+
 ## NAS for Transformers
 
 Recent work applies NAS to transformers:
@@ -153,6 +183,9 @@ Recent work applies NAS to transformers:
 
 ---
 
+![Overview](overview.png)
+
+
 ## Key Papers
 
 - 📄 [ProxylessNAS](https://arxiv.org/abs/1812.00332)
@@ -161,6 +194,9 @@ Recent work applies NAS to transformers:
 - 📄 [EfficientNet](https://arxiv.org/abs/1905.11946)
 
 ---
+
+![Overview](overview.png)
+
 
 ## Practical Tips
 

@@ -8,6 +8,9 @@
 
 ---
 
+![Overview](overview.png)
+
+
 ## The Transformer Efficiency Problem
 
 Standard attention is O(N²) in sequence length:
@@ -21,6 +24,9 @@ Standard attention is O(N²) in sequence length:
 
 ---
 
+![Overview](overview.png)
+
+
 ## Efficiency Techniques Overview
 
 | Technique | Complexity | Trade-off |
@@ -31,6 +37,9 @@ Standard attention is O(N²) in sequence length:
 | KV Cache | O(N) per token | Memory for speed |
 
 ---
+
+![Overview](overview.png)
+
 
 ## Sparse Attention Patterns
 
@@ -55,6 +64,9 @@ Local attention for most tokens
 
 ---
 
+![Overview](overview.png)
+
+
 ## Linear Attention
 
 Rewrite attention to avoid N×N matrix:
@@ -77,6 +89,9 @@ Complexity: O(N × d²) instead of O(N² × d)
 
 ---
 
+![Overview](overview.png)
+
+
 ## FlashAttention
 
 **Key Insight:** Attention is memory-bound, not compute-bound!
@@ -93,6 +108,9 @@ For each block:
 
 ---
 
+![Overview](overview.png)
+
+
 ## FlashAttention Results
 
 | Method | Memory | Speed | Exact? |
@@ -104,6 +122,9 @@ For each block:
 **Same math, just better memory access patterns!**
 
 ---
+
+![Overview](overview.png)
+
 
 ## KV Cache
 
@@ -125,6 +146,9 @@ Memory cost: 2 × layers × seq_len × d_model × dtype
 
 ---
 
+![Overview](overview.png)
+
+
 ## Multi-Query Attention (MQA)
 
 Share K, V across attention heads:
@@ -145,6 +169,9 @@ Middle ground: Share KV within groups
 
 ---
 
+![Overview](overview.png)
+
+
 ## Speculative Decoding
 
 Use small "draft" model to propose tokens, large model to verify:
@@ -159,6 +186,9 @@ If 4/5 accepted: Generated 4 tokens in 1 main model pass!
 Speedup: 2-3x without quality loss
 
 ---
+
+![Overview](overview.png)
+
 
 ## PagedAttention (vLLM)
 
@@ -179,6 +209,9 @@ Benefits:
 
 ---
 
+![Overview](overview.png)
+
+
 ## Efficient Attention Comparison
 
 | Method | Sequence Length | Use Case |
@@ -191,6 +224,9 @@ Benefits:
 
 ---
 
+![Overview](overview.png)
+
+
 ## Key Papers
 
 - 📄 [FlashAttention](https://arxiv.org/abs/2205.14135)
@@ -201,6 +237,9 @@ Benefits:
 - 📄 [Mamba](https://arxiv.org/abs/2312.00752)
 
 ---
+
+![Overview](overview.png)
+
 
 ## Practical Tips
 

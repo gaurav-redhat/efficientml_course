@@ -8,6 +8,9 @@
 
 ---
 
+![Overview](overview.png)
+
+
 ## What is TinyML?
 
 Running machine learning on **microcontrollers** (MCUs):
@@ -23,6 +26,9 @@ Running machine learning on **microcontrollers** (MCUs):
 
 ---
 
+![Overview](overview.png)
+
+
 ## Why TinyML?
 
 | Benefit | Why It Matters |
@@ -35,6 +41,9 @@ Running machine learning on **microcontrollers** (MCUs):
 
 ---
 
+![Overview](overview.png)
+
+
 ## TinyML Challenges
 
 1. **Memory** — Model + activations must fit in KB
@@ -43,6 +52,9 @@ Running machine learning on **microcontrollers** (MCUs):
 4. **Limited compute** — 100MHz vs 3GHz
 
 ---
+
+![Overview](overview.png)
+
 
 ## MCUNet
 
@@ -56,6 +68,9 @@ Stage 2: TinyEngine — Efficient inference engine
 ```
 
 ---
+
+![Overview](overview.png)
+
 
 ## TinyNAS
 
@@ -78,6 +93,9 @@ for architecture in search_space:
 
 ---
 
+![Overview](overview.png)
+
+
 ## Peak Memory Optimization
 
 Standard inference:
@@ -93,6 +111,9 @@ Result: 4x memory reduction!
 ```
 
 ---
+
+![Overview](overview.png)
+
 
 ## Inference Scheduling
 
@@ -111,6 +132,9 @@ Memory: 28×28 = 784 → 7×7 = 49 (16x reduction!)
 
 ---
 
+![Overview](overview.png)
+
+
 ## MCUNet Results
 
 | Model | Flash | SRAM | ImageNet Acc |
@@ -123,6 +147,9 @@ Memory: 28×28 = 784 → 7×7 = 49 (16x reduction!)
 
 ---
 
+![Overview](overview.png)
+
+
 ## TinyEngine Optimizations
 
 | Optimization | Memory Saved |
@@ -133,6 +160,9 @@ Memory: 28×28 = 784 → 7×7 = 49 (16x reduction!)
 | SIMD vectorization | - (speed) |
 
 ---
+
+![Overview](overview.png)
+
 
 ## Code: TinyML Workflow
 
@@ -156,6 +186,9 @@ flash_to_device("model.tflite", device="STM32F746")
 
 ---
 
+![Overview](overview.png)
+
+
 ## TinyML Applications
 
 | Application | MCU | Power |
@@ -166,6 +199,9 @@ flash_to_device("model.tflite", device="STM32F746")
 | Visual wake words | STM32 | 100mW |
 
 ---
+
+![Overview](overview.png)
+
 
 ## Memory Hierarchy
 
@@ -183,6 +219,9 @@ External: SD card, very slow
 
 ---
 
+![Overview](overview.png)
+
+
 ## Key Papers
 
 - 📄 [MCUNet](https://arxiv.org/abs/2007.10319)
@@ -190,6 +229,9 @@ External: SD card, very slow
 - 📄 [TinyML Book](https://www.oreilly.com/library/view/tinyml/9781492052036/)
 
 ---
+
+![Overview](overview.png)
+
 
 ## Resources
 

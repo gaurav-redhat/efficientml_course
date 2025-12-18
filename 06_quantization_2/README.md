@@ -8,6 +8,9 @@
 
 ---
 
+![Overview](overview.png)
+
+
 ## Quantization-Aware Training (QAT)
 
 Train with simulated quantization to improve accuracy:
@@ -31,6 +34,9 @@ def fake_quantize(x, scale, zero_point, bits=8):
 
 ---
 
+![Overview](overview.png)
+
+
 ## Straight-Through Estimator (STE)
 
 Rounding is not differentiable. STE approximates gradients:
@@ -41,6 +47,9 @@ Backward: ∂L/∂x = ∂L/∂y  (pretend round = identity)
 ```
 
 ---
+
+![Overview](overview.png)
+
 
 ## QAT Pipeline
 
@@ -61,6 +70,9 @@ Backward: ∂L/∂x = ∂L/∂y  (pretend round = identity)
 **QAT recovers most of the accuracy!**
 
 ---
+
+![Overview](overview.png)
+
 
 ## Mixed-Precision Quantization
 
@@ -87,6 +99,9 @@ bit_allocation = optimize_for_target_size(
 
 ---
 
+![Overview](overview.png)
+
+
 ## LLM Quantization Challenges
 
 LLMs have **activation outliers** that break standard quantization:
@@ -104,6 +119,9 @@ LLM activations:    [-1, 0.5, 50.0, 1.2, -0.3]  # Outlier!
 4. **AWQ** - Activation-aware weight quantization
 
 ---
+
+![Overview](overview.png)
+
 
 ## SmoothQuant
 
@@ -124,6 +142,9 @@ s = sqrt(max(|X|) / max(|W|))
 
 ---
 
+![Overview](overview.png)
+
+
 ## GPTQ (4-bit LLM Quantization)
 
 Quantize one column at a time, fixing errors in remaining weights:
@@ -140,6 +161,9 @@ For each column j:
 
 ---
 
+![Overview](overview.png)
+
+
 ## Weight-Only vs Weight+Activation
 
 | Method | Weights | Activations | Use Case |
@@ -154,6 +178,9 @@ For each column j:
 
 ---
 
+![Overview](overview.png)
+
+
 ## Practical Results
 
 | Model | Method | Bits | Perplexity |
@@ -165,6 +192,9 @@ For each column j:
 
 ---
 
+![Overview](overview.png)
+
+
 ## Key Papers
 
 - 📄 [LLM.int8()](https://arxiv.org/abs/2208.07339)
@@ -173,6 +203,9 @@ For each column j:
 - 📄 [AWQ](https://arxiv.org/abs/2306.00978)
 
 ---
+
+![Overview](overview.png)
+
 
 ## Code: 4-bit Quantization with bitsandbytes
 
@@ -191,6 +224,9 @@ model = AutoModelForCausalLM.from_pretrained(
 ```
 
 ---
+
+![Overview](overview.png)
+
 
 ## Takeaways
 
